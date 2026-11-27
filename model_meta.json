@@ -1,0 +1,127 @@
+{
+  "final_model": "Logistic Regression",
+  "metrics": {
+    "CV Mean": 0.8264,
+    "CV Std": 0.0172,
+    "Accuracy": 0.8689,
+    "Precision": 0.8125,
+    "Recall": 0.9286,
+    "F1": 0.8667
+  },
+  "comparison": [
+    {
+      "Model": "Logistic Regression",
+      "CV Mean": 0.8264,
+      "CV Std": 0.0172,
+      "Accuracy": 0.8689,
+      "Precision": 0.8125,
+      "Recall": 0.9286,
+      "F1": 0.8667
+    },
+    {
+      "Model": "Decision Tree",
+      "CV Mean": 0.7231,
+      "CV Std": 0.0502,
+      "Accuracy": 0.7869,
+      "Precision": 0.7419,
+      "Recall": 0.8214,
+      "F1": 0.7797
+    },
+    {
+      "Model": "Random Forest",
+      "CV Mean": 0.8139,
+      "CV Std": 0.0202,
+      "Accuracy": 0.918,
+      "Precision": 0.871,
+      "Recall": 0.9643,
+      "F1": 0.9153
+    },
+    {
+      "Model": "KNN (extra)",
+      "CV Mean": 0.8099,
+      "CV Std": 0.0398,
+      "Accuracy": 0.8361,
+      "Precision": 0.7647,
+      "Recall": 0.9286,
+      "F1": 0.8387
+    },
+    {
+      "Model": "SVM (extra)",
+      "CV Mean": 0.8223,
+      "CV Std": 0.0249,
+      "Accuracy": 0.8525,
+      "Precision": 0.8065,
+      "Recall": 0.8929,
+      "F1": 0.8475
+    }
+  ],
+  "confusion_matrices": {
+    "Logistic Regression": [
+      [
+        27,
+        6
+      ],
+      [
+        2,
+        26
+      ]
+    ],
+    "Decision Tree": [
+      [
+        25,
+        8
+      ],
+      [
+        5,
+        23
+      ]
+    ],
+    "Random Forest": [
+      [
+        29,
+        4
+      ],
+      [
+        1,
+        27
+      ]
+    ],
+    "KNN (extra)": [
+      [
+        25,
+        8
+      ],
+      [
+        2,
+        26
+      ]
+    ],
+    "SVM (extra)": [
+      [
+        27,
+        6
+      ],
+      [
+        3,
+        25
+      ]
+    ]
+  },
+  "n_train": 242,
+  "n_test": 61,
+  "feature_importance": {
+    "thal": 0.1363901369642587,
+    "thalach": 0.1228657896262572,
+    "cp": 0.1197507755878866,
+    "ca": 0.10764466152036538,
+    "oldpeak": 0.09136018700214266,
+    "age": 0.09106610039753553,
+    "chol": 0.08532001717987871,
+    "trestbps": 0.07756117209543129,
+    "exang": 0.05278842709438568,
+    "slope": 0.042666172795363236,
+    "sex": 0.03887782371727144,
+    "restecg": 0.021145261643971118,
+    "fbs": 0.012563474375252485
+  }
+}
